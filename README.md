@@ -1,8 +1,8 @@
-# MCRP
+# MCRS
 
-A multi-chain reception protocol, enabling users to generate a QR or URI specifying the coins and networks they want to receive.
+A multi-chain reception standard, enabling users to generate a QR or URI specifying the coins and networks they want to receive.
 
-This protocol is created to omit the handshake of users when according coins and networks to receive/send.
+This standard is created to omit the handshake of users when according coins and networks to receive/send.
 This way a much faster and less error prone funds reception is achieved.
 Generating a (printed) QR code for the resulting URI is one the fastest and safer way to receive funds.
 
@@ -69,4 +69,10 @@ Its composed by three main arrays, which index should be merged to form the desi
       >*Only neccesary if **address** is not specified*
       
       ---
+
+### Example URIs
+
+- User wants to receive USDT,USDC or DAI on ETH, RSK, MATIC or BSC:
+    
+      paycrypto://pay.crypto/?coins=usdt-eth,usdt-matic,usdt-rsk,usdt-bsc,usdc-eth,usdc-matic,usdc-rsk,usdc-bsc,dai-eth,dai-matic,dai-rsk,dai-bsc&address=0x295e26495CEF6F69dFA69911d9D8e4F3bBadB89B
 
