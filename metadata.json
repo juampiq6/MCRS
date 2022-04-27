@@ -1,0 +1,32 @@
+{
+    "fiats": {
+        "usd": "United States Dollar",
+        "eur": "EURO",
+        "ars": "Argentinian Peso"
+    },
+    "blockchains": {
+        "btc": {
+            "name": "Bitcoin Mainnet",
+            "symbol": "BTC",
+            "coinType": 44
+        },
+        "eth": {
+            "name": "Ethereum Mainnet",
+            "symbol": "ETH",
+            "coinType": 60,
+            "networkId": 1,
+            "chainId": 1
+        }
+    },
+    "coins": {
+        "usdt": {
+            "name": "Tether USD",
+            "symbol": "USDT",
+            "decimals": 6,
+            "contracts": {
+                "eth": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+                "bsc": "0x55d398326f99059fF775485246999027B3197955"
+            }
+        }
+    }
+}
